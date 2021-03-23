@@ -1,0 +1,29 @@
+{
+  "name": "extract-car-annual-tax",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "author": "Oleksandr Kucherenko",
+  "description": "Extract car information by licence plate number (Sweden only)",
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "jest-puppeteer": "^4.4.0"
+  },
+  "dependencies": {
+    "capitalize": "^2.0.3",
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "puppeteer": "^3.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
+    "vehicle-identification-number": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "start:dev:windows": "set DEBUG=true && node main.js",
+    "start:dev:macos": "DEBUG=true node main.js"
+  },
+  "bin": {
+    "get-car-info": "./main.js"
+  }
+}
