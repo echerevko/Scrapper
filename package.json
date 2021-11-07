@@ -2,7 +2,7 @@
   "name": "extract-car-annual-tax",
   "version": "1.0.0",
   "license": "Apache-2.0",
-  "author": "Oleksandr Kucherenko",
+  "author": "Oleksandr and Eugenia",
   "description": "Extract car information by licence plate number (Sweden only)",
   "devDependencies": {
     "jest": "^26.0.1",
